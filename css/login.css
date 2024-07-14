@@ -1,0 +1,122 @@
+.login__container {
+  width: 100%;
+  height: 100vh;
+  background: #277dd0 url("../images/back_black.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__box {
+  width: 360px;
+  height: 500px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.login__box__image {
+  width: 100%;
+}
+
+.login__box__message {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ff0000;
+}
+
+.login__box__form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 24px 0 10px;
+}
+
+.input__container {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.login__icon {
+  font-size: 28px;
+  color: #9d9d9d;
+  transition: all 0.3s;
+}
+
+.input__box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input__label {
+  position: absolute;
+  top: 0%;
+  color: #9d9d9d;
+  transition: all 0.3s;
+  cursor: text;
+}
+
+.input {
+  outline: none;
+  border: none;
+  padding: 8px;
+  padding-left: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #9d9d9d;
+}
+
+.input:focus {
+  border-bottom-color: black;
+}
+
+.login__submit--btn {
+  background: rgb(45, 141, 241);
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: 700;
+}
+
+.login__submit--btn:hover {
+  background: #2169b4;
+}
+
+.input__container:focus-within .input__label {
+  top: -50%;
+  font-size: 13px;
+  color: rgb(67, 144, 225);
+  font-weight: 500;
+}
+
+.input__container:focus-within .login__icon {
+  color: rgb(67, 144, 225);
+}
+
+.login__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup--btn {
+  color: #2d8df1;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.forgot--btn {
+  color: #000;
+  font-size: 16px;
+}

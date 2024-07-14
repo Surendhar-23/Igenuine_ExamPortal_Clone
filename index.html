@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+
+    <link rel="icon" href="./images/back_black.png" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="menu__icon__box"><i class="bx bx-menu menu__icon"></i></div>
+        <img
+          class="header__icon"
+          src="https://ezexam-mum.s3.ap-south-1.amazonaws.com/static_root/img/custom/igenuine-logotext-3.png"
+          alt=""
+        />
+      </div>
+
+      <div class="header__btns">
+        <i class="bx bx-fullscreen fullscreen__btn"></i>
+        <a href="login.html"><i class="bx bx-exit exit__btn"></i></a>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="side__nav side__nav__open">
+        <ul class="side__nav__list">
+          <li class="profile__card">
+            <div class="profile__image">
+              <img
+                src="https://assesspro.igenuinesoft.com/static/static_root/images/avatar/avatar-11.png"
+                alt=""
+              />
+            </div>
+            <div class="profile__info">
+              <p class="profile__name">Surendhar N D</p>
+              <p class="profile__id">KSR73152113109</p>
+            </div>
+          </li>
+          <li class="side__nav__item side__nav__active">
+            <div class="side__nav__icon">
+              <i class="bx bxs-caret-right-square"></i>
+            </div>
+            <div class="side__nav__text">Online Exams</div>
+          </li>
+          <li class="side__nav__item">
+            <div class="side__nav__icon"><i class="bx bx-trending-up"></i></div>
+            <div class="side__nav__text">Analysis</div>
+          </li>
+          <li class="side__nav__item">
+            <div class="side__nav__icon"><i class="bx bx-chalkboard"></i></div>
+            <div class="side__nav__text">Notice Board</div>
+          </li>
+          <li class="side__nav__item">
+            <div class="side__nav__icon"><i class="bx bxs-cog"></i></div>
+            <div class="side__nav__text">Settings</div>
+          </li>
+          <li class="side__nav__item">
+            <div class="side__nav__icon">
+              <i class="bx bx-exit exit__btn"></i>
+            </div>
+            <div class="side__nav__text">Logout</div>
+          </li>
+        </ul>
+      </aside>
+      <article class="exam__container">
+        <div class="exam__header">
+          <h4>Online Exams</h4>
+          <p>Select the Online Exam you'd like to attempt</p>
+        </div>
+        <div class="exam__main">
+          <div class="exam__main__title">
+            <h4>Recent Exams</h4>
+            <p>Exams taken in the last 2 Weeks</p>
+          </div>
+          <div class="exam__main__container">
+            <!-- box1 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+                <div class="result__box">
+                  <h2 class="result__title">Scores</h2>
+                  <div class="result__scores">
+                    <p class="scores total__scores">
+                      <span class="score__title">Total</span>
+                      <span class="score__sep">:</span>
+                      <span class="score__mark">29 / 40</span>
+                    </p>
+                    <p class="scores">
+                      <span class="score__title">Java-Mcqs</span>
+                      <span class="score__sep">:</span>
+                      <span class="score__mark">9 / 10</span>
+                    </p>
+                    <p class="scores">
+                      <span class="score__title">Java-Coding</span>
+                      <span class="score__sep">:</span>
+                      <span class="score__mark">20 / 30</span>
+                    </p>
+                  </div>
+                  <div class="result__analysis--btn">
+                    <p>Analytics</p>
+                    <i class="bx bx-trending-up"></i>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <!-- box2 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+            <!-- box3 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+            <!-- box4 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+            <!-- box5 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+            <!-- box6 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+            <!-- box7 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+            <!-- box80 -->
+            <div class="exam__box">
+              <div class="box__header">
+                <h3 class="box__title">
+                  Daily Assessment 27_KSR_Higher Package
+                </h3>
+                <h5 class="box__subtitle">Daily-Test</h5>
+              </div>
+              <main class="box__content">
+                <div class="box__info_container">
+                  <span class="box__info__1 box__info">13 Questions</span>
+                  <span class="box__info__2 box__info">90 Mins</span>
+                  <span class="box__info__3 box__info">40 Marks</span>
+                </div>
+                <p class="box__start__info box__subinfo">
+                  <span class="info__title">Started at</span>
+                  <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                </p>
+                <p class="box__submit__info box__subinfo">
+                  <span class="info__title">Exam Submitted at</span>
+                  <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                </p>
+              </main>
+            </div>
+          </div>
+          <a href="#" class="more__analytics"
+            >Click here to See All Analytics</a
+          >
+
+          <div class="exam__upcom">
+            <div class="exam__upcom__title">
+              <h4>Open & Upcoming Exams</h4>
+            </div>
+            <main class="exam__upom__main">
+              <!-- <p class="exam__upcom__message">No Upcoming Exams</p> -->
+
+              <!-- type -1 -->
+              <div class="exam__type__container">
+                <div class="exam__type__header">
+                  <div class="exam__type__header__icon">
+                    <i class="bx bxs-chevron-down-circle"></i>
+                  </div>
+                  <div class="exam__type__header__title">
+                    <span class="exam__type__title">Daily-Test</span>
+                    <span class="exam__type__count"> - 1 Exam</span>
+                  </div>
+                </div>
+                <div
+                  class="exam__upcom__container exam__upcom__container__open"
+                >
+                  <!-- box 1 -->
+                  <div class="exam__upcom__box__container">
+                    <div class="exam__box exam__upcom__box">
+                      <div class="box__header box__upcom__header">
+                        <h3 class="box__title">
+                          Daily Assessment 27_KSR_Higher Package
+                        </h3>
+                      </div>
+                      <main class="box__content">
+                        <div class="box__info_container">
+                          <span class="box__info__1 box__info"
+                            >13 Questions</span
+                          >
+                          <span class="box__info__2 box__info">90 Mins</span>
+                          <span class="box__info__3 box__info">40 Marks</span>
+                        </div>
+                        <p class="box__start__info box__subinfo">
+                          <span class="info__title">Starts At</span>
+                          <span class="info__data">5:01 PM, 11 Jul 2024</span>
+                        </p>
+                        <p class="box__submit__info box__subinfo">
+                          <span class="info__title">Start Before</span>
+                          <span class="info__data">6:01 PM, 11 Jul 2024</span>
+                        </p>
+                        <div class="exam__start__container">
+                          <div class="exam__start--btn">
+                            <p>Start Exam</p>
+                            <i class="bx bxs-send"></i>
+                          </div>
+                        </div>
+                      </main>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
