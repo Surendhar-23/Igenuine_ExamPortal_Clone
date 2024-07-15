@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Online Exams - iGenuine Learning</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,9 +14,14 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      href="https://ezexam-mum.s3.ap-south-1.amazonaws.com/static_root/img/custom/igenuine-favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/home.css" />
-
+    <link rel="stylesheet" href="./css/onlineexams.css" />
     <link rel="icon" href="./images/back_black.png" />
     <script defer src="script.js"></script>
   </head>
@@ -52,28 +57,42 @@
             </div>
           </li>
           <li class="side__nav__item side__nav__active">
-            <div class="side__nav__icon">
-              <i class="bx bxs-caret-right-square"></i>
-            </div>
-            <div class="side__nav__text">Online Exams</div>
+            <a href="index.html">
+              <div class="side__nav__icon">
+                <i class="bx bxs-caret-right-square"></i>
+              </div>
+              <div class="side__nav__text">Online Exams</div>
+            </a>
           </li>
           <li class="side__nav__item">
-            <div class="side__nav__icon"><i class="bx bx-trending-up"></i></div>
-            <div class="side__nav__text">Analysis</div>
+            <a href="#"
+              ><div class="side__nav__icon">
+                <i class="bx bx-trending-up"></i>
+              </div>
+              <div class="side__nav__text">Analysis</div></a
+            >
           </li>
           <li class="side__nav__item">
-            <div class="side__nav__icon"><i class="bx bx-chalkboard"></i></div>
-            <div class="side__nav__text">Notice Board</div>
+            <a href="noticeboard.html">
+              <div class="side__nav__icon">
+                <i class="bx bx-chalkboard"></i>
+              </div>
+              <div class="side__nav__text">Notice Board</div>
+            </a>
           </li>
           <li class="side__nav__item">
-            <div class="side__nav__icon"><i class="bx bxs-cog"></i></div>
-            <div class="side__nav__text">Settings</div>
+            <a href="settings.html"
+              ><div class="side__nav__icon"><i class="bx bxs-cog"></i></div>
+              <div class="side__nav__text">Settings</div></a
+            >
           </li>
           <li class="side__nav__item">
-            <div class="side__nav__icon">
-              <i class="bx bx-exit exit__btn"></i>
-            </div>
-            <div class="side__nav__text">Logout</div>
+            <a href="#"
+              ><div class="side__nav__icon">
+                <i class="bx bx-exit exit__btn"></i>
+              </div>
+              <div class="side__nav__text">Logout</div></a
+            >
           </li>
         </ul>
       </aside>

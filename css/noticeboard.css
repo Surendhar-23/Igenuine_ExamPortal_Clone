@@ -1,0 +1,28 @@
+/* settings container */
+
+.noticeboard__container {
+  width: 100%;
+  overflow: auto;
+}
+
+.noticeboard__header {
+  background: #f3f3f3;
+  width: 100%;
+  padding: 18px 0;
+  padding-left: 24px;
+  margin-bottom: 18px;
+}
+.noticeboard__header h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.noticeboard__header p {
+  font-size: 14px;
+  color: #777;
+}
+
+.noticeboard__main {
+  padding: 0 24px;
+}

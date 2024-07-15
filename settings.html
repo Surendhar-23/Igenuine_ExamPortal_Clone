@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Settings - iGenuine Learning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://ezexam-mum.s3.ap-south-1.amazonaws.com/static_root/img/custom/igenuine-favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/setting.css" />
+    <link rel="icon" href="./images/back_black.png" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="menu__icon__box"><i class="bx bx-menu menu__icon"></i></div>
+        <img
+          class="header__icon"
+          src="https://ezexam-mum.s3.ap-south-1.amazonaws.com/static_root/img/custom/igenuine-logotext-3.png"
+          alt=""
+        />
+      </div>
+
+      <div class="header__btns">
+        <i class="bx bx-fullscreen fullscreen__btn"></i>
+        <a href="login.html"><i class="bx bx-exit exit__btn"></i></a>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="side__nav side__nav__open">
+        <ul class="side__nav__list">
+          <li class="profile__card">
+            <div class="profile__image">
+              <img
+                src="https://assesspro.igenuinesoft.com/static/static_root/images/avatar/avatar-11.png"
+                alt=""
+              />
+            </div>
+            <div class="profile__info">
+              <p class="profile__name">Surendhar N D</p>
+              <p class="profile__id">KSR73152113109</p>
+            </div>
+          </li>
+          <li class="side__nav__item side__nav__active">
+            <a href="index.html">
+              <div class="side__nav__icon">
+                <i class="bx bxs-caret-right-square"></i>
+              </div>
+              <div class="side__nav__text">Online Exams</div>
+            </a>
+          </li>
+          <li class="side__nav__item">
+            <a href="#"
+              ><div class="side__nav__icon">
+                <i class="bx bx-trending-up"></i>
+              </div>
+              <div class="side__nav__text">Analysis</div></a
+            >
+          </li>
+          <li class="side__nav__item">
+            <a href="noticeboard.html">
+              <div class="side__nav__icon">
+                <i class="bx bx-chalkboard"></i>
+              </div>
+              <div class="side__nav__text">Notice Board</div>
+            </a>
+          </li>
+          <li class="side__nav__item">
+            <a href="settings.html"
+              ><div class="side__nav__icon"><i class="bx bxs-cog"></i></div>
+              <div class="side__nav__text">Settings</div></a
+            >
+          </li>
+          <li class="side__nav__item">
+            <a href="#"
+              ><div class="side__nav__icon">
+                <i class="bx bx-exit exit__btn"></i>
+              </div>
+              <div class="side__nav__text">Logout</div></a
+            >
+          </li>
+        </ul>
+      </aside>
+      <article class="settings__container">
+        <div class="settings__header">
+          <h4>Account Settings</h4>
+          <p>Get Notifications, Change your Password</p>
+        </div>
+        <div class="settings__main">
+          <div class="notification__container">
+            <h3 class="notification__title">Notifications</h3>
+            <p class="notification__description">
+              Be notified whenever an exam is scheduled & when Analytics are
+              ready
+            </p>
+            <a class="notification--btn">Yes, Show Notifications</a>
+          </div>
+          <div class="passwordchange__container">
+            <form class="passwordchange__box__form" action="#">
+              <div class="input__container">
+                <div class="input__box">
+                  <label class="input__label" for="email">Username</label>
+                  <input class="input" type="text" id="email" />
+                </div>
+              </div>
+              <div class="input__container">
+                <div class="input__box">
+                  <label class="input__label" for="newpass">New Password</label>
+                  <input class="input" type="password" id="newpass" />
+                </div>
+              </div>
+              <div class="input__container">
+                <div class="input__box">
+                  <label class="input__label" for="conpass"
+                    >Confirm Password</label
+                  >
+                  <input class="input" type="password" id="conpass" />
+                </div>
+              </div>
+              <div class="input__container">
+                <div class="set__password--btn">
+                  <p>Set Password</p>
+                  <i class="bx bxs-send"></i>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
